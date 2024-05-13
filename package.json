@@ -18,5 +18,8 @@
     "hoisting"
   ],
   "author": "Mehtab Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
