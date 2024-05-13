@@ -1,0 +1,22 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "leetcode problems and polyfills",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "polyfills",
+    "map",
+    "filter",
+    "reduce",
+    "promise",
+    "closures",
+    "hoisting"
+  ],
+  "author": "Mehtab Ali",
+  "license": "ISC"
+}
