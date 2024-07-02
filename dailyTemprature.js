@@ -69,8 +69,7 @@ Output: [1,1,0]
             // Log the current temperature at the index stored at the top of the stack
             // console.log({i})
             while (stack.length > 0 && temperatures[i] > temperatures[stack[stack.length - 1]]) {
-                console.log(`Current temperature: ${temperatures[i]}, Temperature at the top of stack: ${temperatures[stack[stack.length - 1]]}`);
-                console.log("stack",stack)
+                 console.log(`Popped index: ${stack[stack.length - 1]}`);
                 const idx = stack.pop(); // Get the index from the top of the stack
                 res[idx] = i - idx; // Calculate the number of days and store it in the result array
                 console.log("res",res)
@@ -88,8 +87,8 @@ Output: [1,1,0]
     const temperatures4 = [73, 74, 75, 71];
     
     console.log(dailyTemperatures(temperatures1)); // Output: [1, 1, 4, 2, 1, 1, 0, 0]
-    console.log(dailyTemperatures(temperatures2)); // Output: [1, 1, 1, 0]
-    console.log(dailyTemperatures(temperatures3)); // Output: [1, 1, 0]
-    console.log(dailyTemperatures(temperatures4)); // Output: [1, 1, 0, 0]
+    // console.log(dailyTemperatures(temperatures2)); // Output: [1, 1, 1, 0]
+    // console.log(dailyTemperatures(temperatures3)); // Output: [1, 1, 0]
+    // console.log(dailyTemperatures(temperatures4)); // Output: [1, 1, 0, 0]
     
 }
